@@ -77,6 +77,9 @@ def_poi_mapping_barrier: &poi_mapping_barrier
 def_poi_mapping_building: &poi_mapping_building
   - dormitory
   - yes
+  - industrial
+  - commercial
+  - construction
 
 # highway values , see http://taginfo.openstreetmap.org/keys/highway#values
 def_poi_mapping_highway: &poi_mapping_highway
