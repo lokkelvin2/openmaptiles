@@ -389,7 +389,7 @@ def_poi_mapping: &poi_mapping
   aerialway: *poi_mapping_aerialway
   amenity: *poi_mapping_amenity
   barrier: *poi_mapping_barrier
-  building: [__any__]]
+  building: [__any__]
   highway: *poi_mapping_highway
   historic: *poi_mapping_historic
   landuse: *poi_mapping_landuse
