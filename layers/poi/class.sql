@@ -4,7 +4,6 @@ $$
 SELECT CASE class
            WHEN 'hospital' THEN 20
            WHEN 'railway' THEN 40
-           WHEN 'bus' THEN 50
            WHEN 'attraction' THEN 70
            WHEN 'harbor' THEN 75
            WHEN 'college' THEN 80
@@ -12,6 +11,7 @@ SELECT CASE class
            WHEN 'stadium' THEN 90
            WHEN 'zoo' THEN 95
            WHEN 'town_hall' THEN 100
+           WHEN 'bus' THEN 105
            WHEN 'campsite' THEN 110
            WHEN 'cemetery' THEN 115
            WHEN 'park' THEN 120
