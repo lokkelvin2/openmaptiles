@@ -101,6 +101,10 @@ def_poi_mapping_landuse: &poi_mapping_landuse
   - retail
   - military
   - construction
+  - forest
+  - quarry
+  - recreation_ground
+  - religious
 
 # leisure values , see http://taginfo.openstreetmap.org/keys/leisure#values
 def_poi_mapping_leisure: &poi_mapping_leisure
@@ -125,6 +129,8 @@ def_poi_mapping_leisure: &poi_mapping_leisure
 def_poi_mapping_office: &poi_mapping_office
   - diplomatic
   - company
+  - government
+  - yes
 
 # railway values , see http://taginfo.openstreetmap.org/keys/railway#values
 def_poi_mapping_railway: &poi_mapping_railway
