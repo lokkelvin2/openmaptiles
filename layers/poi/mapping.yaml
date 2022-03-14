@@ -77,7 +77,6 @@ def_poi_mapping_barrier: &poi_mapping_barrier
 def_poi_mapping_building: &poi_mapping_building
   - dormitory
   - yes
-  - 
 
 # highway values , see http://taginfo.openstreetmap.org/keys/highway#values
 def_poi_mapping_highway: &poi_mapping_highway
@@ -101,6 +100,7 @@ def_poi_mapping_landuse: &poi_mapping_landuse
   - industrial
   - retail
   - military
+  - construction
 
 # leisure values , see http://taginfo.openstreetmap.org/keys/leisure#values
 def_poi_mapping_leisure: &poi_mapping_leisure
@@ -380,7 +380,7 @@ def_poi_mapping: &poi_mapping
   aerialway: *poi_mapping_aerialway
   amenity: *poi_mapping_amenity
   barrier: *poi_mapping_barrier
-  building: [__any__]
+  building: *poi_mapping_building
   highway: *poi_mapping_highway
   historic: *poi_mapping_historic
   landuse: *poi_mapping_landuse
